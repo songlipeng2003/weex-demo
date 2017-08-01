@@ -1,0 +1,10 @@
+{
+    "nat-geolocation": {
+        "source": {
+            "type": "registry",
+            "id": "nat-geolocation"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
