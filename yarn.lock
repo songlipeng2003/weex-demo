@@ -4565,7 +4565,7 @@ weex-builder@^0.2.6:
     weex-loader "^0.4.4"
     weex-vue-components "^0.1.3"
 
-weex-components@*, weex-components@^0.2.0:
+weex-components@*:
   version "0.2.0"
   resolved "http://registry.npm.taobao.org/weex-components/download/weex-components-0.2.0.tgz#73cb41f88e2e1ceed86d95d1f5db4b0a213cfd53"
 
