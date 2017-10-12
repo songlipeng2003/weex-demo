@@ -1375,13 +1375,13 @@ debug@2.6.7:
   dependencies:
     ms "2.0.0"
 
-debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.6.8:
+debug@2.6.8, debug@^2.1.1:
   version "2.6.8"
   resolved "http://registry.npm.taobao.org/debug/download/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
     ms "2.0.0"
 
-debug@^2.6.9:
+debug@^2.2.0, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
   resolved "http://registry.npm.taobao.org/debug/download/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
@@ -1600,6 +1600,18 @@ escodegen@~1.7.1:
     optionator "^0.5.0"
   optionalDependencies:
     source-map "~0.2.0"
+
+eslint-config-weex@^0.1.5:
+  version "0.1.5"
+  resolved "http://registry.npm.taobao.org/eslint-config-weex/download/eslint-config-weex-0.1.5.tgz#aa2a244a9b4bd4497993243504cc4db0b0b89d4f"
+  dependencies:
+    eslint-plugin-weex-bundle "^0.0.8"
+
+eslint-plugin-weex-bundle@^0.0.8:
+  version "0.0.8"
+  resolved "http://registry.npm.taobao.org/eslint-plugin-weex-bundle/download/eslint-plugin-weex-bundle-0.0.8.tgz#cc5ea7ebedc340152dde25eabb25cc21cff82743"
+  dependencies:
+    parse5 "^2.2.1"
 
 esprima@^1.2.2:
   version "1.2.5"
@@ -3063,7 +3075,7 @@ parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
-parse5@^2.1.5:
+parse5@^2.1.5, parse5@^2.2.1:
   version "2.2.3"
   resolved "http://registry.npm.taobao.org/parse5/download/parse5-2.2.3.tgz#0c4fc41c1000c5e6b93d48b03f8083837834e9f6"
 
