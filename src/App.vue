@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <home-view></home-view>
+  <div @androidback="back">
+    <router-view style="flex:1"></router-view>
   </div>
 </template>
 
@@ -8,14 +8,9 @@
 </style>
 
 <script>
-  import HomeView from './views/HomeView.vue'
-  
   var modal = weex.requireModule('modal')
 
   export default {
-    components: { HomeView },
-    data: {
-    },
     ready: () => {
       modal.toast({
         message: '启动APP',
@@ -23,6 +18,9 @@
       })
     },
     methods: {
+      back: function () {
+        this.$router.back()
+      }
     }
   }
 </script>

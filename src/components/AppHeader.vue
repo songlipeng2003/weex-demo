@@ -6,11 +6,11 @@
 
 <style scoped>
   .header {
-    height: 20px;
+    height: 32px;
   }
 
   .title {
-    font-size: 18px;
+    font-size: 28px;
     text-align: center;
   }
 </style>
